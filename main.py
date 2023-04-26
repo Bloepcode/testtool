@@ -1,4 +1,5 @@
 
-def run():
-    global args
-    print("TEST")
+def main(output):
+    global name
+    print(f"Hello, {name}")
+    output.echo = name

@@ -1,1 +1,4 @@
-{ "main": "main.py" }
+{
+  "inputs": [{ "id": "name", "type": "string", "name": "Name" }],
+  "outputs": [{ "id": "echo", "type": "string", "name": "Echo" }]
+}
